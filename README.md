@@ -1,11 +1,9 @@
 # vite-plugin-dns-prefetch
 
-A Vite plugin to automatically add DNS prefetch links for external resources in the bundled HTML files to improve rendering speed.
+用于在捆绑的HTML文件中自动添加外部资源的DNS预取链接，以提高渲染速度。
 
-## Installation
-
-Install the plugin using npm:
+## 下载
 
 ```bash
-npm install vite-plugin-tianbenchu-dns-prefetch --save-dev
+npm i tbc-vite-plugin-dns-prefetch
 ```
