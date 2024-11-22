@@ -1,0 +1,24 @@
+{
+  "name": "tbc-vite-plugin-dns-prefetch",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "dns-prefetch"
+  ],
+  "author": "TianBenChu",
+  "license": "ISC",
+  "description": "A Vite plugin to automatically add dns-prefetch links for external resources in the bundled HTML.",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "glob": "^11.0.0",
+    "node-html-parser": "^6.1.13",
+    "url-regex": "^5.0.0"
+  }
+}
